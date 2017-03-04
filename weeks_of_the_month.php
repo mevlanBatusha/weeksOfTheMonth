@@ -3,6 +3,11 @@
 // get date
 $date = date('d/m/Y');
 
+/*
+* or we can send other date
+* which month from date: specific day we need to know 
+*/
+
 list($send_day, $send_month, $send_year) = explode('/',$date);
 
 // send values to function and get the result
